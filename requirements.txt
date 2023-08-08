@@ -1,0 +1,4 @@
+asyncio
+pyppeteer
+pandas
+bs4
