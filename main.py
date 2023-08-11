@@ -4,13 +4,12 @@ import asyncio
 from pyppeteer import launch
 import pandas as pd
 import os
-#from pyquery import PyQuery as pq
 from bs4 import BeautifulSoup
 
-#data_path = '../data/'
-data_path = 'data/'
+data_path = '../data/' #The data folder is in the parent directory outside of current repo folder
+#data_path = 'data/'
 pkg_path = 'eastmoney_parser/'
-folder_path = 'stock_report_summary/'
+folder_path = 'grpStockReportSummary/'
 
 async def main():
     # 启动浏览器
