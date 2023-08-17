@@ -1,4 +1,4 @@
 asyncio
 pyppeteer
 pandas
-bs4
+beautifulsoup4
